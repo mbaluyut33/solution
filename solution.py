@@ -8,12 +8,10 @@ def welcome_assignment_answers(question):
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "Yes"
-
+        answer = "No"
     elif question == "In Slack, what is the secret passphrase posted in the #cyberfellows-computernetworking-fall2021 channel posted by a TA?":
         #you have to hunt for this one in slack* (DO NOT INCLUDE THE * or red text in the question)
         answer = "mTLS"
-
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
     elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code":
@@ -21,9 +19,9 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
-        answer = "1"
+        answer = "5"
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
-        answer = "2"
+        answer = "4"
     return answer
 
 # Complete all the questions.
